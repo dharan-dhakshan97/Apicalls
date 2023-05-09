@@ -46,7 +46,7 @@ useEffect(() => {
           // <li key={photo.id}> </li>
           <h1 key={pic.id}>
             {" "}
-            <img src={pic.thumbnailUrl} alt="The Colors is" />{" "}
+            <img src={pic.thumbnailUrl} style={{textAlign:'center', marginRight:'25px', width:'100px', height:'100px'}} alt="The Colors is" />{" "}
           </h1>
 
           // style={{textAlign:'center', width:'25px', height:'25px'}}
